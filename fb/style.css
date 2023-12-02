@@ -1,4 +1,4 @@
-/* Base styles for all screen sizes */
+
 .header {
     background: #3b5998;
     width: 100%;
@@ -10,7 +10,7 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-/* Header styles */
+
 .logo {
     width: 50%;
     padding-top: 32px;
@@ -60,28 +60,26 @@ body {
     background: red;
 }
 
-/* Content styles for different screen sizes */
 .left-section {
-    width: 100%;
-    float: none;
-    padding: 10px; /* Add padding for mobile */
+    width: 50%;
+    float:left;
+    padding-left:50px;
 }
-
 .right-section {
-    width: 100%;
-    float: none;
-    padding: 10px; /* Add padding for mobile */
+    width: 40%;
+    float: right;
+    padding-right: 30px;
 }
 
 .main-body {
     background: rgb(123, 120, 120);
     background: linear-gradient(90deg, rgba(124, 132, 147, 0.578) 0%, rgba(227, 230, 235, 0.578) 35%, rgb(227, 230, 235, 0.578) 100%, rgba(227,230,235,0.578) 100%);
     width: 100%;
-    min-height: 1000px; /* Use min-height for content to prevent overlap */
+    min-height: 1000px; 
 }
 
 .image {
-    width: 100%; /* Adjust image width for mobile */
+    width: 100%;
     float: none;
 }
 
@@ -93,23 +91,11 @@ body {
 h1 {
     font-style: bold;
 }
-
-/* Add responsive styles using media queries */
-@media (max-width: 768px) {
-    .login-controls {
-        margin-left: 0; /* Center login controls for small screens */
-    }
-
-    .logo-text {
-        margin-left: 0; /* Center logo text for small screens */
-    }
-
-    .left-section,
-    .right-section {
-        width: 100%;
-        float: none;
-        padding: 10px;
-    }
+.footer{
+    background-color: #4267b2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: double;
 }
 
-/* Add more media queries for smaller screen sizes if needed */
+
+
